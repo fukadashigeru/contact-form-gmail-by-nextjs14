@@ -57,9 +57,9 @@ type ProfileFormValues = z.infer<typeof profileFormSchema>;
 
 // This can come from your database or API.
 const defaultValues: Partial<ProfileFormValues> = {
-  name: "鈴木　一郎",
-  email: "hoge@gmail.com",
-  message: "費用を教えてください。",
+  name: "",
+  email: "",
+  message: "",
   // urls: [
   //   { value: "https://shadcn.com" },
   //   { value: "http://twitter.com/shadcn" },
