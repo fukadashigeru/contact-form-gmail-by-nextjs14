@@ -1,5 +1,6 @@
 import GmailForm from "@/components/GmailForm";
 import { Button } from "@/components/ui/button";
+import { Toaster } from "@/components/ui/toaster";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           <GmailForm />
         </div>
       </main>
+      <Toaster />
     </>
   );
 }
